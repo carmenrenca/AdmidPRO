@@ -6,11 +6,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { PagesModule } from './pages/pages.module'; 
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
-import { AuthModule } from './auth/auth.module';
+import { AuthModule } from './auth/auth.module'; 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent 
 
   ],
   imports: [BrowserModule,AppRoutingModule,PagesModule, CommonModule, RouterModule, AuthModule ],
